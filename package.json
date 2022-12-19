@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "eslint": "^8.30.0",
+    "koa": "^2.14.1",
+    "nodemon": "^2.0.20"
+  },
+  "name": "korWebServer",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/FE-HyunSu/korWebserver.git",
+  "author": "fe.hyunsu <fe.hyunsu@gmail.com>",
+  "license": "MIT"
+}
