@@ -1,4 +1,9 @@
 {
+  "name": "kor-Server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/FE-HyunSu/korWebserver.git",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^16.0.3",
     "eslint": "^8.30.0",
@@ -7,12 +12,12 @@
     "mongoose": "^6.8.0",
     "nodemon": "^2.0.20"
   },
-  "name": "korWebServer",
-  "version": "1.0.0",
-  "main": "src/index.js",
-  "repository": "https://github.com/FE-HyunSu/korWebserver.git",
-  "author": "fe.hyunsu <fe.hyunsu@gmail.com>",
-  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "@typescript-eslint/parser": "^3.2.0",
+    "eslint": "^7.2.0",
+    "nodemon": "^2.0.4"
+  },
   "scripts": {
     "start": "node src",
     "start:dev": "nodemon --watch src/ src/index.js"
