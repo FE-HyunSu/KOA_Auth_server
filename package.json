@@ -1,8 +1,8 @@
 {
-  "name": "kor-Server",
+  "name": "KOA-server",
   "version": "1.0.0",
   "main": "src/index.js",
-  "repository": "https://github.com/FE-HyunSu/korWebserver.git",
+  "repository": "https://github.com/FE-HyunSu/KOAserver.git",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.0.3",
