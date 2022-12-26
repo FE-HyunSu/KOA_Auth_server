@@ -4,8 +4,11 @@ const Router = require('koa-router');
 const app = new Koa();
 const router = new Router();
 const api = require('./api');
+const connect = require('./schemas');
 // api 라우트를 /api 경로 하위 라우트로 설정.
 router.use('/api', api.routes());
+
+connect();
 
 // 라우터 설정 : 첫번째 파라미터는 라우트 경로, 두 번째 파라미터는 라우트에 적용할 미들웨어 함수.
 router.get('/', (ctx) => {
